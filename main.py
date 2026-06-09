@@ -265,14 +265,12 @@ def transfer_money(account, accounts, from_number):
 
 
 def show_transactions(account):
-    """Displays full transaction history for the account."""
     print("\n--- Transaction History ---")
     for transaction in account.get("transactions", []):
         print(transaction)
 
 
 def atm_menu(accounts, account_number):
-    """Runs the main ATM menu loop for a logged-in user."""
     try:
         account = accounts[account_number]
     except KeyError:
