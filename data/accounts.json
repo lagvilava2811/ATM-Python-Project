@@ -1,0 +1,79 @@
+{
+  "1001": {
+    "owner": "Demo User",
+    "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "balance": 500.0,
+    "locked": false,
+    "transactions": [
+      "Initial balance: 500.00 GEL"
+    ]
+  },
+  "841862": {
+    "owner": "vako",
+    "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "balance": 1100.0,
+    "locked": false,
+    "transactions": [
+      "Initial balance: 1000.00 GEL",
+      "2026-05-25 14:00:06 | Deposit: +1000.00 GEL",
+      "2026-05-25 14:00:15 | Withdrawal: -500.00 GEL",
+      "2026-05-25 14:01:58 | Transfer to 484297: -500.00 GEL",
+      "2026-05-25 14:03:38 | Transfer from 484297: +100.00 GEL"
+    ]
+  },
+  "484297": {
+    "owner": "nini",
+    "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "balance": 1400.0,
+    "locked": false,
+    "transactions": [
+      "Initial balance: 1000.00 GEL",
+      "2026-05-25 14:01:58 | Transfer from 841862: +500.00 GEL",
+      "2026-05-25 14:03:38 | Transfer to 841862: -100.00 GEL"
+    ]
+  },
+  "108856": {
+    "owner": "vako",
+    "pin_hash": "0ffe1abd1a08215353c233d6e009613e95eec4253832a761af28ff37ac5a150c",
+    "balance": 1300.0,
+    "locked": false,
+    "transactions": [
+      "Initial balance: 1000.00 GEL",
+      "2026-05-25 14:30:19 | Deposit: +500.00 GEL",
+      "2026-05-25 14:30:33 | Withdrawal: -200.00 GEL",
+      "2026-05-25 14:31:10 | PIN changed"
+    ]
+  },
+  "719025": {
+    "owner": "nino",
+    "pin_hash": "0ffe1abd1a08215353c233d6e009613e95eec4253832a761af28ff37ac5a150c",
+    "balance": 15000.0,
+    "locked": false,
+    "transactions": [
+      "Initial balance: 10000.00 GEL",
+      "2026-05-26 11:45:39 | Deposit: +6000.00 GEL",
+      "2026-05-26 11:46:22 | Withdrawal: -1000.00 GEL",
+      "2026-05-26 11:47:15 | PIN changed"
+    ]
+  },
+  "601640": {
+    "owner": "mishka",
+    "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "balance": 14000.0,
+    "locked": false,
+    "transactions": [
+      "Initial balance: 10000.00 GEL",
+      "2026-05-27 17:17:54 | Deposit: +5000.00 GEL",
+      "2026-05-27 17:18:26 | Withdrawal: -1000.00 GEL"
+    ]
+  },
+  "553501": {
+    "owner": "vako",
+    "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "balance": 20000.0,
+    "locked": false,
+    "transactions": [
+      "Initial balance: 20000.00 GEL"
+    ]
+  }
+}
